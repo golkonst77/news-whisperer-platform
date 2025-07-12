@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import os
 
 # Явно указываем путь к env-файлу
-load_dotenv(os.path.join(os.path.dirname(__file__), '../news_aggregator.env'))
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 VK_ACCESS_TOKEN = os.getenv('VK_ACCESS_TOKEN')
 VK_OWNER_ID = os.getenv('VK_OWNER_ID')  # Добавьте в .env, например: -123456789

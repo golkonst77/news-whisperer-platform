@@ -6,7 +6,7 @@ import requests
 from dotenv import load_dotenv
 
 # Загружаем переменные окружения
-load_dotenv(os.path.join(os.path.dirname(__file__), '../news_aggregator.env'))
+load_dotenv(os.path.join(os.path.dirname(__file__), '../.env'))
 
 def paraphrase_text(text, prompt=None):
     """Рерайтинг текста через DeepSeek API"""

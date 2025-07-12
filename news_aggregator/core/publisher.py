@@ -7,7 +7,7 @@ import sqlite3
 from dotenv import load_dotenv
 
 # Загружаем переменные окружения
-load_dotenv(os.path.join(os.path.dirname(__file__), '../news_aggregator.env'))
+load_dotenv(os.path.join(os.path.dirname(__file__), '../.env'))
 
 VK_ACCESS_TOKEN = os.getenv('VK_ACCESS_TOKEN')
 VK_OWNER_ID = os.getenv('VK_OWNER_ID')
