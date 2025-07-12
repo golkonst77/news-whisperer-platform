@@ -166,6 +166,41 @@ news_aggregator/
 
 ## Интеграция с веб-сайтами
 
+### Поддерживаемые технологии
+
+News Aggregator предоставляет REST API для интеграции с любыми веб-технологиями:
+
+- **PHP** - WordPress плагины, Laravel приложения
+- **Node.js** - Express.js, Next.js приложения
+- **Python** - Django, Flask приложения
+- **JavaScript** - Frontend приложения (React, Vue.js)
+- **Другие языки** - Любой язык с HTTP клиентом
+
+### Документация по интеграции
+
+Подробная документация по интеграции доступна в следующих файлах:
+
+- `docs/INTEGRATION_GUIDE.md` - Полное руководство по интеграции
+- `docs/API_REFERENCE.md` - Справочник API endpoints
+- `docs/INTEGRATION_EXAMPLES.md` - Практические примеры для разных технологий
+
+### Быстрый старт
+
+1. **Запустите API сервер:**
+```bash
+cd news_aggregator
+python api_server.py
+```
+
+2. **Протестируйте API:**
+```bash
+curl -X POST http://localhost:8000/parse \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://example.com/news"}'
+```
+
+3. **Интегрируйте в ваш проект** используя примеры из документации
+
 ### PHP пример
 ```php
 $response = file_get_contents('http://localhost:8000/parse', false, stream_context_create([
