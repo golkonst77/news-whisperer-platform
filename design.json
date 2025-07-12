@@ -1,0 +1,371 @@
+{
+    "designSystem": {
+      "themes": [
+        {
+          "name": "Dark Theme (NewsBot Pro)",
+          "colors": {
+            "background": {
+              "primary": "#1A1A1A",
+              "secondary": "#2C2C2C",
+              "tertiary": "#242424"
+            },
+            "text": {
+              "primary": "#FFFFFF",
+              "secondary": "#A0A0A0",
+              "accent": "#4CAF50",
+              "warning": "#FFA500"
+            },
+            "buttons": {
+              "primary": {
+                "background": "#4CAF50",
+                "text": "#FFFFFF"
+              }
+            },
+            "icons": {
+              "default": "#A0A0A0",
+              "active": "#FFFFFF"
+            },
+            "borders": {
+              "default": "#404040"
+            }
+          },
+          "typography": {
+            "fontFamily": "Sans-serif",
+            "sizes": {
+              "heading1": {
+                "size": "24px",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              },
+              "heading2": {
+                "size": "18px",
+                "weight": "medium",
+                "color": "#FFFFFF"
+              },
+              "body": {
+                "size": "14px",
+                "weight": "regular",
+                "color": "#A0A0A0"
+              },
+              "largeNumbers": {
+                "size": "36px",
+                "weight": "bold",
+                "color": "#FFFFFF"
+              }
+            }
+          },
+          "components": {
+            "cards": {
+              "context": "Used for displaying grouped information or actionable items.",
+              "structure": "Rectangular containers with internal padding.",
+              "styles": {
+                "default": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#2C2C2C"
+                  },
+                  "borderRadius": "8px",
+                  "shadow": {
+                    "color": "rgba(0, 0, 0, 0.4)",
+                    "xOffset": "0px",
+                    "yOffset": "4px",
+                    "blur": "8px"
+                  },
+                  "border": {
+                    "style": "none"
+                  },
+                  "content": {
+                    "color": "#FFFFFF",
+                    "secondaryColor": "#A0A0A0"
+                  }
+                }
+              },
+              "states": {
+                "hover": "Not visible in screenshots, likely a subtle background change or border highlight."
+              }
+            },
+            "buttons": {
+              "context": "Primary actions and calls to action.",
+              "styles": {
+                "primary": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#4CAF50"
+                  },
+                  "text": {
+                    "color": "#FFFFFF"
+                  },
+                  "borderRadius": "4px",
+                  "shadow": {
+                    "color": "rgba(0, 0, 0, 0.3)",
+                    "xOffset": "0px",
+                    "yOffset": "2px",
+                    "blur": "4px"
+                  }
+                }
+              },
+              "states": {
+                "hover": "Not visible in screenshots, likely a slight darkening of background or subtle lift effect.",
+                "active": "Not visible in screenshots."
+              }
+            },
+            "navigationItems": {
+              "context": "Used in side navigation panels.",
+              "styles": {
+                "default": {
+                  "background": {
+                    "type": "solid",
+                    "color": "transparent"
+                  },
+                  "text": {
+                    "color": "#A0A0A0"
+                  },
+                  "icon": {
+                    "color": "#A0A0A0"
+                  }
+                },
+                "active": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#4CAF50"
+                  },
+                  "borderRadius": "4px",
+                  "text": {
+                    "color": "#FFFFFF"
+                  },
+                  "icon": {
+                    "color": "#FFFFFF"
+                  }
+                }
+              },
+              "states": {
+                "hover": "Not visible in screenshots, likely a subtle background change or text/icon color change."
+              }
+            }
+          },
+          "visualEffects": {
+            "shadows": [
+              "Subtle drop shadow applied to card containers (e.g., NewsBot Pro data cards, Quick Actions cards).",
+              "Subtle drop shadow applied to primary action buttons (e.g., 'Start Parsing' button in NewsBot Pro)."
+            ],
+            "gradients": [
+              "No prominent gradients observed on backgrounds or components; primarily solid colors."
+            ],
+            "borderRadius": [
+              "Cards: 8px (NewsBot Pro)",
+              "Buttons: 4px (NewsBot Pro, CompareSR 'Save', Screaming Frog 'OK', 'Cancel')",
+              "Input fields: Small, likely 2-4px (CompareSR)."
+            ],
+            "animations": [
+              "No animations are discernible from static screenshots. Hover effects are implied but not visible."
+            ]
+          }
+        },
+        {
+          "name": "Light Theme (CompareSR, DataCol, Netpeak Spider, Screaming Frog)",
+          "colors": {
+            "background": {
+              "primary": "#F0F0F0",
+              "secondary": "#FFFFFF"
+            },
+            "text": {
+              "primary": "#202020",
+              "secondary": "#707070",
+              "links": "#2196F3"
+            },
+            "buttons": {
+              "primary": {
+                "background": "#4CAF50",
+                "text": "#FFFFFF"
+              },
+              "secondary": {
+                "background": "#F44336",
+                "text": "#FFFFFF"
+              },
+              "default": {
+                "background": "#E0E0E0",
+                "text": "#202020"
+              },
+              "accentBlue": {
+                "background": "#3F51B5",
+                "text": "#FFFFFF"
+              }
+            },
+            "tabs": {
+              "selected": {
+                "background": "#3F51B5",
+                "text": "#FFFFFF"
+              },
+              "unselected": {
+                "background": "transparent",
+                "text": "#202020"
+              }
+            },
+            "icons": {
+              "default": "#202020"
+            },
+            "borders": {
+              "default": "#D0D0D0",
+              "input": "#A0A0A0"
+            }
+          },
+          "typography": {
+            "fontFamily": "Sans-serif",
+            "sizes": {
+              "default": {
+                "size": "13-14px",
+                "weight": "regular",
+                "color": "#202020"
+              }
+            }
+          },
+          "components": {
+            "panels": {
+              "context": "Main content containers and settings dialogs.",
+              "styles": {
+                "default": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#FFFFFF"
+                  },
+                  "border": {
+                    "style": "solid",
+                    "color": "#D0D0D0",
+                    "width": "1px"
+                  },
+                  "borderRadius": "0px"
+                }
+              }
+            },
+            "buttons": {
+              "context": "Actions within the application.",
+              "styles": {
+                "primary": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#4CAF50"
+                  },
+                  "text": {
+                    "color": "#FFFFFF"
+                  },
+                  "borderRadius": "4px"
+                },
+                "secondary": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#F44336"
+                  },
+                  "text": {
+                    "color": "#FFFFFF"
+                  },
+                  "borderRadius": "4px"
+                },
+                "accentBlue": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#3F51B5"
+                  },
+                  "text": {
+                    "color": "#FFFFFF"
+                  },
+                  "borderRadius": "4px"
+                },
+                "default": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#E0E0E0"
+                  },
+                  "text": {
+                    "color": "#202020"
+                  },
+                  "borderRadius": "4px"
+                }
+              },
+              "states": {
+                "hover": "Not visible in screenshots, likely a slight darkening or border change.",
+                "active": "Not visible in screenshots."
+              }
+            },
+            "tabs": {
+              "context": "Navigation within sections or dialogs.",
+              "styles": {
+                "selected": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#3F51B5"
+                  },
+                  "text": {
+                    "color": "#FFFFFF"
+                  }
+                },
+                "unselected": {
+                  "background": {
+                    "type": "solid",
+                    "color": "transparent"
+                  },
+                  "text": {
+                    "color": "#202020"
+                  }
+                }
+              },
+              "states": {
+                "hover": "Not visible in screenshots."
+              }
+            },
+            "inputFields": {
+              "context": "User input for text or data.",
+              "styles": {
+                "default": {
+                  "background": {
+                    "type": "solid",
+                    "color": "#FFFFFF"
+                  },
+                  "border": {
+                    "style": "solid",
+                    "color": "#A0A0A0",
+                    "width": "1px"
+                  },
+                  "borderRadius": "2px"
+                },
+                "text": {
+                  "color": "#202020"
+                }
+              },
+              "states": {
+                "focus": "Not visible in screenshots, likely a blue border highlight."
+              }
+            }
+          },
+          "visualEffects": {
+            "shadows": [
+              "No prominent shadows observed on standard components, mainly flat design."
+            ],
+            "gradients": [
+              "No prominent gradients observed."
+            ],
+            "borderRadius": [
+              "Buttons: 4px",
+              "Input fields: 2-4px"
+            ],
+            "animations": [
+              "No animations are discernible from static screenshots."
+            ]
+          }
+        }
+      ],
+      "generalRules": {
+        "spacing": "Consistent internal padding of 16-24px for card content. Consistent spacing between elements, typically 8-16px. No specific grid system is discernible across all applications, but a consistent vertical rhythm is present within individual applications.",
+        "layout": "Desktop application layouts feature distinct left navigation panels and main content areas. Main content often uses card-based structures for data display.",
+        "doNotRules": [
+          "DO NOT apply card background gradients/solid colors (e.g., #2C2C2C for dark theme) to icon elements or text elements directly. Icons and text have their own specific color rules.",
+          "DO NOT apply button background colors (e.g., #4CAF50, #F44336) to surrounding containers or non-button text elements.",
+          "DO NOT use the primary button text color (#FFFFFF) for general body text or secondary labels, which use dedicated text colors (e.g., #A0A0A0 for dark theme, #202020 for light theme).",
+          "DO NOT apply shadows to every element; reserve shadows for interactive components like cards and primary buttons to provide depth and hierarchy, as seen in NewsBot Pro.",
+          "DO NOT apply rounded corners inconsistently; adhere to defined radii (e.g., 8px for cards, 4px for buttons, 2-4px for input fields).",
+          "DO NOT use accent colors (green, orange) for general text unless they indicate status or a call to action.",
+          "DO NOT mix theme-specific colors (e.g., NewsBot Pro dark theme colors with light theme primary backgrounds)."
+        ]
+      },
+      "limitations": "This design system profile is based on static screenshots only. Exact HEX color values are approximated visually. Information on hover, active, focus, and disabled states, as well as precise gradient specifications (start/end colors, direction, stops), shadow properties (spread, offset), and animation details, is not fully available and has been inferred or noted as missing. Typography details such as specific font names and precise line heights could not be extracted."
+    }
+  }
